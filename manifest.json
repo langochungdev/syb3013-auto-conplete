@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Udemy Auto Complete",
+  "version": "1.0",
+  "permissions": ["scripting", "tabs", "storage"],
+  "host_permissions": ["https://fpl.udemy.com/*"],
+  "action": {
+    "default_title": "Mark Udemy Lecture Completed",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
